@@ -7,29 +7,6 @@ const Homescreen = () => {
   return (
     <>
       <Navbar />
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
-      <h1>This is homescreen</h1>
     </>
   );
 };
