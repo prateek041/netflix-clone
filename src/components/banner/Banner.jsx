@@ -2,6 +2,7 @@ import { Button, Grid, Paper, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
 import "./banner.css";
+import { useGetTrendingQuery } from "../../api/tmdbApi";
 
 const Banner = () => {
   // creating the truncate function
@@ -11,15 +12,13 @@ const Banner = () => {
       : string;
   };
 
+  const { data, isFetching } = useGetTrendingQuery();
+  if (isFetching) {
+    console.log("fetching the data");
+  }
+  console.log(data);
+
   return (
-    // <header
-    //   className="banner"
-    //   style={{
-    //     backgroundSize: "cover",
-    //     backgroundImage: `url("https://cdn.mediaincanada.com/wp/wp-content/uploads/2020/09/netflix-banner.png?8766fc")`,
-    //     backgroundPosition: "conter center",
-    //   }}
-    // ></header>
     <Paper
       className="banner"
       sx={{
@@ -40,7 +39,7 @@ const Banner = () => {
             <Button
               className="banner__button"
               variant="contained"
-              //   sx={{ margin: "5px" }}
+              sx={{ margin: "5px" }}
             >
               Play
             </Button>
