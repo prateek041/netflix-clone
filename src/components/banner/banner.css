@@ -1,0 +1,16 @@
+.banner {
+  height: 90vh;
+  background-image: url("https://cdn.mediaincanada.com/wp/wp-content/uploads/2020/09/netflix-banner.png?8766fc");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.banner__button {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgba(51, 51, 51, 0.5);
+  margin: 5px;
+}

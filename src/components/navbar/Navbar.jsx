@@ -1,4 +1,4 @@
-import { AppBar, Button, Toolbar, Grid, Avatar } from "@mui/material";
+import { AppBar, Toolbar, Grid, Avatar } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import "./navbar.css";
 
